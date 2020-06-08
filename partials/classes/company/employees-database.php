@@ -18,16 +18,3 @@
    foreach ($employees as $employee){
       $employees_list[] = new Employee(...$employee);
    }
-
-   // Try and Catch
-   try {
-      foreach ($employees_list as $employee){
-         echo $employee->monthlySalary(12) . '<br>';
-         //echo $employee->monthlySalary('12') . '<br>';
-      }
-   }
-   catch (Exception $e){
-      echo 'Messagge error: ' . $e->getMessage() . '<br>';
-      echo 'Error at line: ' . $e->getLine() . '<br>';
-      echo 'Error in file: ' . $e->getFile() . '<br>';
-   }

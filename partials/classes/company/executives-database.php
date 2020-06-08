@@ -15,16 +15,3 @@
    foreach ($executives as $executive){
       $executives_list[] = new Executive (...$executive);
    }
-
-   // Try and Catch
-   try {
-      foreach ($executives_list as $executive){
-         echo $executive->monthlySalary(12) . '<br>';
-         //echo $employee->monthlySalary('12') . '<br>';
-      }
-   }
-   catch (Exception $e){
-      echo 'Messagge error: ' . $e->getMessage() . '<br>';
-      echo 'Error at line: ' . $e->getLine() . '<br>';
-      echo 'Error in file: ' . $e->getFile() . '<br>';
-   }

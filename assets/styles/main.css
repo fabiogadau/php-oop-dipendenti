@@ -1,0 +1,39 @@
+/* GENERAL */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+}
+
+/* HEADER */
+header {
+   text-align: center;
+   padding: 20px;
+}
+
+/* MAIN */
+main {
+   max-width: 1170px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+/* Sections */
+section {
+   flex-basis: 30%;
+   padding: 30px;
+}
+
+.person {
+   margin-bottom: 30px;
+}
+
+span {
+   display: block
+}
